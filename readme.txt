@@ -68,4 +68,4 @@ Troubleshooting:
 
 5) Ensure your weather station is recording temperature data (outTemp)
 
-Credits - Inspired by [weewx-windy](https://github.com/Jterrettaz/weewx-windy).
+Credits - Inspired by weewx-windy: https://github.com/Jterrettaz/weewx-windy
