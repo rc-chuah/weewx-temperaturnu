@@ -9,6 +9,12 @@ You will need an API key from temperatur.nu
 
 This extension will work with weewx version equal or greater than V3.8.0
 
+Requirements:
+
+- Python 2.7+ or Python 3.x
+- weewx V3.8.0 or later
+- No external Python libraries required (uses only Python standard library)
+
 Installation instructions:
 
 1) download
@@ -85,5 +91,17 @@ Troubleshooting:
 
 6) For connection issues, verify the URL is accessible:
    curl "https://www.temperatur.nu/rapportera.php?hash=YOUR_KEY&t=20"
+
+Dependencies:
+
+This extension uses only Python's standard library. The following standard library modules are used:
+
+- Queue (or queue in Python 3)
+- urllib (or urllib.parse and urllib.request in Python 3)
+- sys
+- time
+- logging (or syslog)
+
+No additional pip packages or external dependencies are required.
 
 Credits - Inspired by weewx-windy: https://github.com/Jterrettaz/weewx-windy
