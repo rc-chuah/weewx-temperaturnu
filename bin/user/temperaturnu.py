@@ -1,4 +1,4 @@
-# Copyright 2026 Based on weewx-windy by Matthew Wall and Jacques Terrettaz
+# Copyright 2026 RC Chuah (Based on weewx-windy by Matthew Wall and Jacques Terrettaz)
 
 """
 This is a weewx extension that uploads data to temperatur.nu
