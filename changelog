@@ -4,4 +4,6 @@
 * Automatic temperature conversion from Fahrenheit to Celsius
 * Compatible with weewx V3.8.0 and later
 * Support for both weewx V4 (wee_extension) and V5 (weectl) installers
+* Uses only Python standard library - no external dependencies required
+* Support for both Python 2.7+ and Python 3.x
 * Based on weewx-windy by Matthew Wall (modified by Jacques Terrettaz)
