@@ -60,12 +60,9 @@ The extension will:
 
 Temperature Conversion:
 
-The extension automatically detects your weather station's unit system and converts 
-the temperature to Celsius as required by Temperatur.nu:
-
-- If your station uses US units (Fahrenheit): (°F - 32) × 5/9 = °C
-- If your station uses metric units (Celsius): No conversion needed
-- Temperature is rounded to 1 decimal place
+The extension automatically converts your weather station's temperature to Celsius 
+using weewx.units.to_METRICWX(). This ensures accuracy regardless of your station's 
+native unit system (Fahrenheit or Celsius).
 
 Example conversions:
 - 32°F → 0°C
@@ -97,7 +94,7 @@ Dependencies:
 This extension uses only Python's standard library. The following standard library modules are used:
 
 - Queue (or queue in Python 3)
-- urllib (or urllib.parse and urllib.request in Python 3)
+- urllib (or urllib.parse in Python 3)
 - sys
 - time
 - logging (or syslog)
