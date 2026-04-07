@@ -181,7 +181,7 @@ This extension uses **only Python's standard library**. The following modules ar
 
 Copyright © 2026 RC Chuah
 
-Distributed under the terms of the [GNU General Public License (GPLv3)](LICENSE.md)
+Distributed under the terms of the [GNU General Public License t (GPLv3)](LICENSE.md)
 
 ## Credits
 
