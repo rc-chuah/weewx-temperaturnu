@@ -7,4 +7,4 @@
 * Uses only Python standard library - no external dependencies required
 * Support for both Python 2.7+ and Python 3.x
 * Simplified implementation with only format_url() override
-* Based on weewx-windy and weewx-temperaturnu by Matthew Wall (modified by Jacques Terrettaz and Konrad Skeri Ekblad)
+* Based on weewx-windy and weewx-temperaturnu by Matthew Wall, Jacques Terrettaz and Konrad Skeri Ekblad
