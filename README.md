@@ -185,7 +185,7 @@ Distributed under the terms of the [GNU General Public License (GPLv3)](LICENSE.
 
 ## Credits
 
-- **Original Concept:** Based on [weewx-windy](https://github.com/Jterrettaz/weewx-windy) by Matthew Wall and Jacques Terrettaz
+- **Original Concept:** Based on [weewx-windy and weewx-temperaturnu](https://github.com/Jterrettaz/weewx-windy) by Matthew Wall, Jacques Terrettaz and Konrad Skeri Ekblad
 - **Modified for Temperatur.nu:** RC Chuah
 
 ## Links
@@ -194,3 +194,4 @@ Distributed under the terms of the [GNU General Public License (GPLv3)](LICENSE.
 - **Temperatur.nu:** https://www.temperatur.nu/
 - **WeeWX Documentation:** https://www.weewx.com/docs/
 - **weewx-windy:** https://github.com/Jterrettaz/weewx-windy
+- **weewx-temperaturnu:** https://github.com/LapplandsCohan/weewx-temperaturnu
