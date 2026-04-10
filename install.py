@@ -1,5 +1,5 @@
 # installer for temperaturnu
-# Copyright © 2026 RC Chuah (Based on weewx-windy by Matthew Wall and Jacques Terrettaz)
+# Copyright © 2026 RC Chuah (Based on weewx-windy and weewx-temperaturnu by Matthew Wall, Jacques Terrettaz and Konrad Skeri Ekblad)
 # Distributed under the terms of the GNU General Public License (GPLv3)
 
 from weecfg.extension import ExtensionInstaller
@@ -13,7 +13,7 @@ class TemperaturNuInstaller(ExtensionInstaller):
             version="0.1",
             name='temperaturnu',
             description='Upload weather data to Temperatur.nu.',
-            author="RC Chuah (Based on weewx-windy by Matthew Wall and Jacques Terrettaz)",
+            author="RC Chuah (Based on weewx-windy and weewx-temperaturnu by Matthew Wall, Jacques Terrettaz and Konrad Skeri Ekblad)",
             author_email="44928288+rc-chuah@users.noreply.github.com",
             restful_services='user.temperaturnu.TemperaturNu',
             config={
