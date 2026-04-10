@@ -1,5 +1,5 @@
 # weewx extension for temperaturnu
-# Copyright © 2026 RC Chuah (Based on weewx-windy by Matthew Wall and Jacques Terrettaz)
+# Copyright © 2026 RC Chuah (Based on weewx-windy and weewx-temperaturnu by Matthew Wall, Jacques Terrettaz and Konrad Skeri Ekblad)
 # Distributed under the terms of the GNU General Public License (GPLv3)
 
 """
@@ -168,7 +168,7 @@ class TemperaturNuThread(weewx.restx.RESTThread):
 
 
 # Use this hook to test the uploader:
-#   PYTHONPATH=bin python bin/user/temperaturnu.py
+# PYTHONPATH=bin python bin/user/temperaturnu.py
 
 if __name__ == "__main__":
     class FakeMgr(object):
